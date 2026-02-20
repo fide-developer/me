@@ -1,0 +1,29 @@
+
+.buttonGroup {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.start {
+    margin-right: auto;
+}
+
+.center {
+    margin: auto;
+}
+
+.end {
+    margin-left: auto;
+}
