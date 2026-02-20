@@ -1,0 +1,15 @@
+
+
+.navLink {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: var(--text-link-hover);
+    }
+
+    &.active {
+        color: var(--text-link);
+    }
+}
