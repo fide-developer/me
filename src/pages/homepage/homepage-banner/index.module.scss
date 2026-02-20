@@ -1,0 +1,32 @@
+.lottieAnimation {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 900px;
+}
+
+.bannerTitle {
+    margin: 0;
+    color: var(--text-primary);
+}
+
+.bannerCard {
+    position: relative;
+    z-index: 2;
+
+    color: var(--text-primary);
+}
+
+.bannerCard_title {
+    margin: 0;
+    display: inline-block;
+
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+}
+
+.bannerCard_description {
+    display: inline-block;
+    font-size: var(--font-size-lg);
+    color: var(--text-secondary);
+}
