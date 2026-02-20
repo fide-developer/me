@@ -1,0 +1,28 @@
+
+
+.card {
+    background-color: var(--background-primary);
+    border: 1px solid var(--border-secondary);
+    box-shadow: var(--shadow-sm);
+    width: fit-content;
+    height: fit-content;
+}
+
+.small {
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+}
+
+.medium {
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+}
+
+.large {
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+}
+
+.transparent {
+    background-color: var(--background-overlay);
+}
