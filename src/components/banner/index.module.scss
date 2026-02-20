@@ -1,0 +1,15 @@
+
+
+.banner {
+    padding: var(--layout-padding-y) var(--layout-padding-x);
+    background-color: var(--background-secondary);
+    border-bottom: 1px solid var(--border-color);
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: var(--spacing-lg);
+    z-index: 1;
+
+    height: 50vh;
+}
