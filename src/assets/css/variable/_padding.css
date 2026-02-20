@@ -1,0 +1,19 @@
+:root {
+    --small-padding-x: 8px;
+    --small-padding-y: 2px;
+    --padding-x: 16px;
+    --padding-y: 4px;
+    --large-padding-x: 20px;
+    --large-padding-y: 5px;
+
+    /* button */
+    --button-small-padding: 8px 2px;
+    --button-padding: 16px 4px;
+    --button-large-padding: 20px 5px;
+
+    /* layout */
+    --small-layout-padding-x: clamp(16px, 5%, 32px);
+    --small-layout-padding-y: 16px;
+    --layout-padding-x: clamp(20px, 10%, 120px);
+    --layout-padding-y: 32px;
+}

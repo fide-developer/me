@@ -1,0 +1,150 @@
+/* ================== */
+/* LIGHT THEME */
+/* ================== */
+:root {
+    /* ------------------ */
+    /* BACKGROUND */
+    /* ------------------ */
+    --background-primary: #ffffff;
+    --background-primary-hover: #f5f5f5;
+    --background-primary-active: #e6e6e6;
+    --background-secondary: #fafafa;
+    --background-secondary-hover: #f0f0f0;
+    --background-secondary-active: #e0e0e0;
+    --background-error: #fff1f0;
+    --background-success: #f6ffed;
+    --background-warning: #fffbe6;
+    --background-disabled: #f0f0f0;
+
+    --background-overlay: rgba(0, 0, 0, 0.06);
+
+    /* ------------------ */
+    /* TEXT */
+    /* ------------------ */
+    --text-primary: #000000;
+    --text-secondary: #595959;
+    --text-placeholder: #bfbfbf;
+    --text-success: #237804;
+    --text-error: #a8071a;
+    --text-warning: #ad4e00;
+    --text-disabled: #8c8c8c;
+    --text-link: #1890ff;
+    --text-link-hover: #40a9ff;
+
+    /* ------------------ */
+    /* BORDER */
+    /* ------------------ */
+    --border-primary: #1890ff;
+    --border-primary-focus: #40a9ff;
+    --border-secondary: #d9d9d9;
+    --border-error: #ff4d4f;
+    --border-success: #52c41a;
+    --border-warning: #faad14;
+    --border-disabled: #d9d9d9;
+
+    /* ------------------ */
+    /* ACCENT */
+    /* ------------------ */
+    --color-accent: #722ed1;
+    --color-accent-hover: #9254de;
+    --color-accent-active: #391085;
+
+    /* ------------------ */
+    /* DIVIDER / OVERLAY */
+    /* ------------------ */
+    --color-divider: #f0f0f0;
+    --color-overlay: rgba(0, 0, 0, 0.5);
+
+    /* ------------------ */
+    /* SHADOWS / ELEVATION */
+    /* ------------------ */
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 15px rgba(0,0,0,0.15);
+    --shadow-xl: 0 20px 25px rgba(0,0,0,0.2);
+
+    /* ------------------ */
+    /* OPACITY / STATE */
+    /* ------------------ */
+    --opacity-disabled: 0.5;
+
+    /* ------------------ */
+    /* COLOR SHADES (LIGHT) */
+    /* ------------------ */
+    --primary-100: #e6f7ff;
+    --primary-200: #bae7ff;
+    --primary-300: #91d5ff;
+    --primary-400: #69c0ff;
+    --primary-500: #40a9ff;
+    --primary-600: #1890ff;
+    --primary-700: #096dd9;
+    --primary-800: #0050b3;
+    --primary-900: #003a8c;
+
+    --secondary-100: #f9f0ff;
+    --secondary-200: #efdbff;
+    --secondary-300: #d3adf7;
+    --secondary-400: #b37feb;
+    --secondary-500: #9254de;
+    --secondary-600: #722ed1;
+    --secondary-700: #531dab;
+    --secondary-800: #391085;
+    --secondary-900: #22075e;
+
+    --error-100: #fff1f0;
+    --error-500: #ff4d4f;
+
+    --success-100: #f6ffed;
+    --success-500: #52c41a;
+
+    --warning-100: #fffbe6;
+    --warning-500: #faad14;
+}
+
+/* ================== */
+/* DARK THEME */
+/* ================== */
+.dark-theme {
+    --background-primary: #121212;
+    --background-primary-hover: #1e1e1e;
+    --background-primary-active: #2a2a2a;
+    --background-secondary: #1a1a1a;
+    --background-secondary-hover: #242424;
+    --background-secondary-active: #2e2e2e;
+    --background-error: #5c0000;
+    --background-success: #003a00;
+    --background-warning: #4a3a00;
+    --background-disabled: #333333;
+
+    --background-overlay: rgba(255, 255, 255, 0.03);
+
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --text-placeholder: #888888;
+    --text-success: #95d6a7;
+    --text-error: #ff7875;
+    --text-warning: #ffd666;
+    --text-disabled: #666666;
+    --text-link: #40a9ff;
+    --text-link-hover: #69c0ff;
+
+    --border-primary: #40a9ff;
+    --border-primary-focus: #69c0ff;
+    --border-secondary: #555555;
+    --border-error: #ff7875;
+    --border-success: #95d6a7;
+    --border-warning: #ffd666;
+    --border-disabled: #555555;
+
+    --color-accent: #9254de;
+    --color-accent-hover: #b37feb;
+    --color-accent-active: #722ed1;
+
+    --color-divider: #333333;
+    --color-overlay: rgba(0, 0, 0, 0.7);
+
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.5);
+    --shadow-lg: 0 10px 15px rgba(0,0,0,0.6);
+    --shadow-xl: 0 20px 25px rgba(0,0,0,0.7);
+}

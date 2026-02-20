@@ -1,0 +1,20 @@
+:root {
+    /* ------------------ */
+    /* TYPOGRAPHY */
+    /* ------------------ */
+    --font-family-base: 'Inter', sans-serif;
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 20px;
+    --font-size-xl: 24px;
+    --line-height-xs: 1.2;
+    --line-height-sm: 1.4;
+    --line-height-md: 1.5;
+    --line-height-lg: 1.6;
+    --line-height-xl: 1.8;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+}
