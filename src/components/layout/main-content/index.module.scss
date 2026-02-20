@@ -1,0 +1,8 @@
+
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    padding: var(--layout-padding-y) var(--layout-padding-x);
+}
